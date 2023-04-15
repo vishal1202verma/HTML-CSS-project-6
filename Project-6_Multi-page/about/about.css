@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f4fbfd;
+}
+
+nav{
+    margin-top:34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-left: -114px;
+}
+.navigation{
+    margin-right: -124px;
+}
+nav ul{
+    display: flex;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 34px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#0e0d0d;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color:#04bb87;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+main{
+    text-align: center;
+    margin: 84px 144px;
+    padding: 76px 84px;
+}
+h1{
+    /* margin-top: 34px;
+    padding-top: 54px; */
+    font-size: 30px;
+    font-weight: 750;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04bb87;
+    
+}
+p{
+    width: 35vw;
+    margin-top: 14px;
+    margin-left: 196px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.card-items{
+    text-align: center;
+    height: 70px;
+    width: 140px;
+    margin: 0px 34px;
+    padding: 0 44px;
+    background-color: #f0fcff;
+    box-shadow: 1px 1px 8px  black;
+    border: 2px solid #f5f4f4;
+    border-radius: 8px;
+    
+}
+
+
+.card-items::first-line{
+    color: #048b65;
+    font-size: 16px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
+   
+     
+}
+.card-items:nth-last-child(3){
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 8px;
+}
+
+.card-items:nth-last-child(2){
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 8px;
+}
+
+.card-items:nth-last-child(1){
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 8px;
+}

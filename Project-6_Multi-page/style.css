@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+
+}
+body{
+    background-image: url(./photos/stethoscope.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    background-size:contain;
+    background-clip: content-box;
+    background-origin:border-box;
+    
+} 
+nav{
+    margin-top:34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-left: -114px;
+}
+.navigation{
+    margin-right: -124px;
+}
+nav ul{
+    display: flex;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 34px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#0e0d0d;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color:#04bb87;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+main{
+    margin-top: 44px;
+    padding: top 34px; ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left{
+    margin: 0 128px;
+    max-width: 40vw;
+}
+.left-content h1{
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.left-content p{
+    color:#342e2e;
+    margin-bottom: 24px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+button{
+   
+    padding: 09px 32px;
+    background-color: #24aa84;
+    border: 2px solid transparent;
+    border-radius: 28px;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #01ffb7;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.bottomAngle{
+    position: relative;
+    margin-top: -244px;
+    margin-left: 314px;
+}
+.mouse{
+    position: relative;
+    margin-left: 584px;
+    margin-top: -504px;
+    
+    
+}
+
+
+.main-right{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* .right-content img{
+  width: 50%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+} */
+.greenbg1{
+    width: 30%;
+    position:absolute;
+    margin-top: 199px;
+    margin-left: 44px;
+}
+
+.yelllowBG{
+    width: 25%;
+    position:absolute;
+    margin-top: 264px;
+    margin-left: 144px
+}
+
+.doctorImg{
+    position: relative;
+    width: 80%;
+    margin-top:10px;
+}
